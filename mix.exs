@@ -40,7 +40,7 @@ defmodule StillImageflow.MixProject do
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false},
       {:imageflow, "~> 0.4.0"},
-      {:still, "~> 0.1.2"}
+      {:still, ">= 0.2.0"}
     ]
   end
 
@@ -55,6 +55,7 @@ defmodule StillImageflow.MixProject do
       licenses: ["ISC"],
       links: %{"GitHub" => "https://github.com/still-ex/still_imageflow"},
       files: [
+        "mix*",
         "LICENSE",
         "lib/*"
       ]
